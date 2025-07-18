@@ -24,3 +24,6 @@ bool isMaxHeap(const vector<int>& arr) {
             return false;
         if (2 * i + 2 < n && arr[i] < arr[2 * i + 2]) 
             return false;
+    }
+    return true; 
+}
