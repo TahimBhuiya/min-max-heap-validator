@@ -22,3 +22,5 @@ bool isMaxHeap(const vector<int>& arr) {
         // If left child is greater, return false
         if (2 * i + 1 < n && arr[i] < arr[2 * i + 1]) // Checking if left child exists and greater than the parent
             return false;
+        if (2 * i + 2 < n && arr[i] < arr[2 * i + 2]) 
+            return false;
