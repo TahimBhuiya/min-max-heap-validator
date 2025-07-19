@@ -12,10 +12,12 @@ bool isMinHeap(const vector<int>& arr) {
         // If left child is smaller, return false
         if (2 * i + 1 < n && arr[i] > arr[2 * i + 1]) // Checking if left child exists and smaller than the parent
             return false;
-        if (2 * i + 2 < n && arr[i] > arr[2 * i + 2]) 
+
+        // If right child is smaller, return false
+        if (2 * i + 2 < n && arr[i] > arr[2 * i + 2]) // Checking if right child exists and smaller than the parent
             return false;
     }
-    return true; 
+    return true; // If all conditions pass, return true indicating a min heap
 }
 
 
