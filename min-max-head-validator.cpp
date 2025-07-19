@@ -45,3 +45,5 @@ int main() {
         cout << "Array B is a min heap." << endl;
     else if (isMaxHeap(B)) 
         cout << "Array B is a max heap." << endl;
+    else
+        cout << "Array B is neither a max heap nor a min heap." << endl;
