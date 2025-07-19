@@ -55,3 +55,8 @@ int main() {
 
     else
         cout << "Array C is neither a max heap nor a min heap." << endl;
+
+
+    return 0; 
+}
+
