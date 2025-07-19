@@ -5,10 +5,12 @@
 
 using namespace std; // Use the standard namespace to simplify code
 
+// Function to check if an array represents a min heap
 bool isMinHeap(const vector<int>& arr) {
-    int n = arr.size(); 
-    for (int i = 0; i <= (n - 2) / 2; i++) { 
-        if (2 * i + 1 < n && arr[i] > arr[2 * i + 1]) 
+    int n = arr.size(); // Getting the size of the array
+    for (int i = 0; i <= (n - 2) / 2; i++) { // Loop through each element up to the parent of the last element
+        // If left child is smaller, return false
+        if (2 * i + 1 < n && arr[i] > arr[2 * i + 1]) // Checking if left child exists and smaller than the parent
             return false;
         if (2 * i + 2 < n && arr[i] > arr[2 * i + 2]) 
             return false;
