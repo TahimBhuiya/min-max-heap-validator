@@ -1,8 +1,9 @@
-//Created by Tahim Bhuiya
+// Created by Tahim Bhuiya
+// Include necessary libraries for input/output and dynamic arrays
 #include <iostream> 
 #include <vector>  
 
-using namespace std;
+using namespace std; // Use the standard namespace to simplify code
 
 bool isMinHeap(const vector<int>& arr) {
     int n = arr.size(); 
