@@ -57,13 +57,12 @@ int main() {
     else
         cout << "Array B is neither a max heap nor a min heap." << endl;// Checking if array B is neither
 
-    if (isMinHeap(C)) 
+    if (isMinHeap(C)) // Checking if array C is a min heap
         cout << "Array C is a min heap." << endl;
-    else if (isMaxHeap(C)) 
+    else if (isMaxHeap(C)) // Checking if array C is a max heap
         cout << "Array C is a max heap." << endl;
-
     else
-        cout << "Array C is neither a max heap nor a min heap." << endl;
+        cout << "Array C is neither a max heap nor a min heap." << endl;// Checking if array C is neither
 
 
     return 0; 
