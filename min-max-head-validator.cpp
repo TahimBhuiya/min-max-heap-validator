@@ -42,12 +42,12 @@ int main() {
     vector<int> B = {11, 9, 7, 5, 3, 1, -1, -3, -5, -7}; // Initializing array B
     vector<int> C = {6, 7, 8, 9, 10, 1, 2, 3, 4, 5}; // Initializing array C
 
-    if (isMinHeap(A)) 
+    if (isMinHeap(A)) // Checking if array A is a min heap
         cout << "Array A is a min heap." << endl;
-    else if (isMaxHeap(A)) 
+    else if (isMaxHeap(A)) // Checking if array A is a max heap
         cout << "Array A is a max heap." << endl;
     else
-        cout << "Array A is neither a max heap nor a min heap." << endl;
+        cout << "Array A is neither a max heap nor a min heap." << endl;// Checking if array A is neither
 
     if (isMinHeap(B)) 
         cout << "Array B is a min heap." << endl;
