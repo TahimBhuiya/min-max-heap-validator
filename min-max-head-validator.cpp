@@ -64,7 +64,6 @@ int main() {
     else
         cout << "Array C is neither a max heap nor a min heap." << endl;// Checking if array C is neither
 
-
-    return 0; 
+    return 0; // Exiting the program
 }
 
