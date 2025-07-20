@@ -38,9 +38,9 @@ bool isMaxHeap(const vector<int>& arr) {
 
 
 int main() {
-    vector<int> A = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}; 
-    vector<int> B = {11, 9, 7, 5, 3, 1, -1, -3, -5, -7}; 
-    vector<int> C = {6, 7, 8, 9, 10, 1, 2, 3, 4, 5}; 
+    vector<int> A = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}; // Initializing array A
+    vector<int> B = {11, 9, 7, 5, 3, 1, -1, -3, -5, -7}; // Initializing array B
+    vector<int> C = {6, 7, 8, 9, 10, 1, 2, 3, 4, 5}; // Initializing array C
 
     if (isMinHeap(A)) 
         cout << "Array A is a min heap." << endl;
