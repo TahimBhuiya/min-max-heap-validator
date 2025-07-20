@@ -33,7 +33,7 @@ bool isMaxHeap(const vector<int>& arr) {
         if (2 * i + 2 < n && arr[i] < arr[2 * i + 2]) // Checking if right child exists and greater than the parent
             return false;
     }
-    return true; 
+    return true; // If all conditions pass, return true indicating a max heap
 }
 
 
