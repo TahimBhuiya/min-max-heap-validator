@@ -20,7 +20,6 @@ bool isMinHeap(const vector<int>& arr) {
     return true; // If all conditions pass, return true indicating a min heap
 }
 
-
 // Function to check if an array represents a max heap
 bool isMaxHeap(const vector<int>& arr) {
     int n = arr.size(); // Getting the size of the array
@@ -36,7 +35,6 @@ bool isMaxHeap(const vector<int>& arr) {
     return true; // If all conditions pass, return true indicating a max heap
 }
 
-
 int main() {
     vector<int> A = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}; // Initializing array A
     vector<int> B = {11, 9, 7, 5, 3, 1, -1, -3, -5, -7}; // Initializing array B
@@ -48,7 +46,6 @@ int main() {
         cout << "Array A is a max heap." << endl;
     else
         cout << "Array A is neither a max heap nor a min heap." << endl;// Checking if array A is neither
-
 
     if (isMinHeap(B)) // Checking if array B is a min heap
         cout << "Array B is a min heap." << endl;
