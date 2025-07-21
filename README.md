@@ -8,3 +8,11 @@ This program analyzes integer arrays to verify if they satisfy the properties of
 
 * **Min Heap** – where each parent node is less than or equal to its children.
 * **Max Heap** – where each parent node is greater than or equal to its children.
+
+The program tests three example arrays and outputs the result for each.
+
+## 🧠 Features
+
+* Validates min heap structure
+* Validates max heap structure
+* Outputs the type of heap each array represents
