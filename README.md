@@ -20,3 +20,10 @@ The program tests three example arrays and outputs the result for each.
 ## 🛠️ How It Works
 
 Each array is traversed from the root to the last parent node. The child indices (`2*i + 1` for left, `2*i + 2` for right) are used to check heap conditions.
+
+## 🧪 Example Output
+
+```
+Array A is a min heap.
+Array B is a max heap.
+Array C is neither a max heap nor a min heap.
