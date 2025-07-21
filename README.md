@@ -34,3 +34,7 @@ Array C is neither a max heap nor a min heap.
 1. Clone the repository or download the `.cpp` file.
 2. Compile the code or paste into a compatible compiler.
 3. Run the program.
+
+## 👨‍💻 Author
+
+Created by **Tahim Bhuiya** 
